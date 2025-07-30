@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
-const repoName = "CarbonSense"; // ✅ correct variable
+const repoName = "Carbon-Calculator"; // ✅ correct variable
 
 export default defineConfig(({ mode }) => ({
   base: mode === "production" ? `/${repoName}/` : "/", 
